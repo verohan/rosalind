@@ -47,3 +47,22 @@ print(sc['A'], sc['C'], sc['G'], sc['T'])
 #########################################################
 # you may add your solutions below
 # Don't hesitate to send pull request for your new solution 
+
+################################
+# Solution from Hehan 2018-12-11
+################################
+txt = 'GCCTAAGGGTAGGGCGGCAGCAAGGAAGGGGGCA'
+a = 0
+t = 0
+c = 0
+g = 0
+for i in txt:
+    if i == 'A':
+        a += 1
+    elif i == 'C':
+        c += 1
+    elif i == 'G':
+        g += 1
+    elif i == 'T':
+        t += 1
+print(a,c,g,t)
