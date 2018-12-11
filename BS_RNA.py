@@ -35,3 +35,10 @@ print(tt)
 #########################################################
 # you may add your solutions below
 # Don't hesitate to send pull request for your new solution 
+
+#############################
+# Solution from Hehan
+#############################
+a = 'GATGGAACTTGACTACGTAAATT'
+a_replace = a.replace('T','U')
+print(a_replace)
