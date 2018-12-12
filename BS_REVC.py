@@ -43,3 +43,24 @@ with open('rosalind_revc.txt', 'r') as f:
 #########################################################
 # you may add your solutions below
 # Don't hesitate to send pull request for your new solution 
+
+
+##########################
+# Solution from Hehan
+##########################
+s = 'AAAACCCGGT'
+sc = ''
+for i in s:
+    if i == 'A':
+        sc += 'T'
+    elif i == 'G':
+        sc += 'C'
+    elif i == 'T':
+        sc += 'A'
+    elif i == 'C':
+        sc += 'G'
+    else:
+        continue
+print(sc)
+sc = sc[::-1]
+print(sc)
