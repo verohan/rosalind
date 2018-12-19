@@ -58,3 +58,17 @@ fib(5, 3)
 # you may add your solutions below
 # Don't hesitate to send pull request for your new solution 
 
+######################
+# solution from hehan
+######################
+
+def fib(n, k):
+    if n <= 0:
+        return(0)
+    elif n == 1:
+        return(1)
+    else:
+        return(fib(n-1,k) + k * fib(n-2,k))
+print(fib(5,3))
+
+
